@@ -9,4 +9,5 @@ export default class PhoneService{
     }
 
     get = () => this.instance.get("/")
+    getDetail = (id) => this.instance.get(`/${id}`)
 }
