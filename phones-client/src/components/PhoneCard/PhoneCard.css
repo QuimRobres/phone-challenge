@@ -1,16 +1,25 @@
 .phone-card{
-    border: 1px black solid;
+    border: 1px;
     margin: 10px;
     width: 500px;
     border-radius: 10px;
     box-shadow: 10px 10px 15px black;
+    background-color: wheat;
 }
 
 .phone-card p {
     margin: 20px;
+    background-color: wheat;
 }
 
 .phone-card h4{
     border-bottom: 3px black solid;
     margin: 20px;
+    background-color: wheat;
 }
+
+.phone-card img {
+    width: 150px;
+    margin: 20px;
+}
+
